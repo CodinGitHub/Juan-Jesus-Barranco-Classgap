@@ -1,0 +1,36 @@
+/*Tipos de selectores*/
+/* 
+#titulo{
+    color: #ff0000;
+}
+
+.parrafo{
+    color: #110F33;
+}
+
+#parrafo2{
+    font-size: 20px;
+    color: rgb(0, 128, 0);
+}
+
+button{
+    background-color: brown;
+} */
+
+body{
+   font-family: Arial, Helvetica, sans-serif; 
+   background-image: url('./fondo.jpg');
+}
+#titulo{
+    text-align: center;
+}
+.parrafo{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+#usuario-imagen{
+    border: 3px solid red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
