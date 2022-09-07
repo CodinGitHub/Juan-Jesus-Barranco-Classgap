@@ -1,0 +1,24 @@
+h1{
+    border: 1px solid red;
+    border-top: 5px dashed red;
+
+    padding: 30px 16px;
+    margin: 50px 220px 100px 120px;
+}
+p{
+    margin-top: 100px;
+}
+
+/*Centrar un elemento de linea*/
+a{
+    border: 1px solid red;
+    text-align: center; 
+    display: inline-block;
+    width: 100%;
+}
+
+/*Centrar un elemento de Bloque*/
+div{
+    border: 1px solid blue;
+    text-align: center;
+}
