@@ -1,10 +1,19 @@
+/*
+Dentro del modelo de caja vamos a encontrar::after
+Padding -> Espacio interior a la caca
+Border -> Borde de la caja
+Margin -> Espacio exterior a la caja
+*/
+
 h1{
     border: 1px solid red;
     border-top: 5px dashed red;
 
     padding: 30px 16px;
-    margin: 50px 220px 100px 120px;
+    margin: 50px 220px 100px 120px; /*El orden es arriba, derecha, abajo izquierda*/
+    
 }
+/*Los margenes de arriba y abajo NO se suman*/
 p{
     margin-top: 100px;
 }
@@ -13,8 +22,8 @@ p{
 a{
     border: 1px solid red;
     text-align: center; 
-    display: inline-block;
-    width: 100%;
+    display: inline-block; /*Para transformar un elemento de linea a bloque*/
+    width: 100%; /*El width no se aplica a los elementos de linea*/
 }
 
 /*Centrar un elemento de Bloque*/
