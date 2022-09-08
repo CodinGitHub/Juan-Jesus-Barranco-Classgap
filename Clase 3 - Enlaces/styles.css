@@ -1,0 +1,40 @@
+p{
+    color: white;
+}
+#primerEnlace{
+    text-decoration: none; /*Siempre que des estilos a los enlaces hay que usar esta regla*/
+    color: green;
+}
+
+body{
+    background-color: rgb(33, 26, 88);
+}
+
+
+
+/*La mejor forma de armar un boton con enlace, es poner, en el HTML, dentro del enlace el boton*/
+/*De esta forma sólo das los siguientes estilos al boton:*/
+button{
+    border: 2px solid palevioletred;
+    background-color: rgb(33, 26, 88);
+    width: 80px;
+    height: 30px;
+    border-radius: 16px; 
+    color: palevioletred;
+}
+button:hover{
+    background-color: palevioletred;
+    color: rgb(33, 26, 88);
+    cursor: pointer; /*Para cambiar el cursor a una manito*/
+}
+
+
+
+/*Esto de aquí es solamente si tienes el enlace dentro del boton*/
+#enlaceBoton{
+    text-decoration: none;
+    color: palevioletred;
+}
+#enlaceBoton:hover{
+    color: rgb(33, 26, 88);
+}
