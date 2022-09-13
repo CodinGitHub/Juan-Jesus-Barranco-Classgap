@@ -19,3 +19,17 @@ div{
     height: 300px;
     position: relative;
 }
+
+.Stiky{
+    position: sticky;
+    top: 0;
+    height: 30px;
+    background-color: crimson;
+    color: aliceblue;
+    font-size: 24px;
+}
+
+.static{
+    position: static;
+    bottom: 100px; /*Esto no funciona porque la position static hace que no se mueva*/
+}

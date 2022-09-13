@@ -1,0 +1,24 @@
+div{
+    border: 2px solid black;
+    padding: 20px;
+}
+/* Esto es como se hacia antes*/
+/* .texto4{
+    position: absolute;
+    background-color: aqua;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+} */
+
+.container{
+    border: 2px solid red;
+    display: flex; /*Si al contenedor le ponemos flex, los hijos tiene un ancho que depende del contido*/
+}
+.firstElement{
+    flex: 1;
+}
+.secondElement{
+    flex: 1;
+}
