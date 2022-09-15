@@ -1,0 +1,24 @@
+.contenedor{
+    border: 2px solid red;
+    display: flex; /*Los elementos se ponen uno al lado del otro*/
+    justify-content: space-around; /*Espacio igual entre los elementos - solo funciona con el flex*/
+    /* flex-direction: row-reverse; cambia el orden de los elementos */
+    /* flex-direction: column-reverse; Cambia la direccion a columna*/
+    height: 600px;
+    align-items: center; /*Centrado verticalmente, tambien puede ser flex-start, o flex-end*/
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 20px;
+}
+.hijo{
+    border: 2px solid rebeccapurple;
+    font-size: 32px;
+    padding: 12px;
+    width: 100px;
+}
+.hijo1{
+    /* align-self: flex-start; */
+}
+.hijo2{
+    /* align-self: flex-end; */
+}
