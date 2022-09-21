@@ -1,0 +1,37 @@
+.comentarios{
+    border: 2px solid red;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    padding: 0 24px;
+}
+.card-img{
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.card-group{
+    width: 80%;
+}
+.gris{
+    background-color: red;
+}
+
+@media (min-width: 1400px){
+    .comentarios{
+        flex-direction: row;
+    }
+    .card{
+        border-radius: 16px;
+    }
+}
