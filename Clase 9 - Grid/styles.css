@@ -1,0 +1,20 @@
+.hijo{
+    border: 1px solid;
+    padding: 6px;
+    font-size: 24px;
+    text-align: center;
+}
+.contenedor{
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* 1fr 1fr 1fr */
+}
+#hijo1{
+    grid-column: 1/4;
+}
+/* #hijo8{
+    grid-column: 1/4;
+} */
+#hijo2{
+    grid-row: 2/5;
+}

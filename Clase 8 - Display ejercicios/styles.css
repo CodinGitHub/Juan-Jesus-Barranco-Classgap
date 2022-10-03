@@ -35,3 +35,12 @@
         border-radius: 16px;
     }
 }
+
+@media (max-width:500px) {
+    body {
+        background-color: aqua;
+    }
+    .opiniones {
+        flex-direction: row;
+    }
+}
