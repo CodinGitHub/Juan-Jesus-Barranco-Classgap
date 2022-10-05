@@ -1,0 +1,43 @@
+/*--------- Variables -----------*/
+:root{
+    --color-principal: red;
+    --color-secundario: green;
+}
+
+.especial{
+    color: var(--color-principal);
+}
+
+.otro-color{
+    color: var(--color-secundario);
+}
+
+/*--------- Pseudoclases -----------*/
+.btn{
+    font-weight: bold;
+    border-radius: 14px;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    padding-left: 4px;
+    position: relative;
+}
+.btn:hover::before{
+    content: 'Este boton va a abrir una nueva pagina';
+    position: absolute;
+    right: -240px;
+    width: 200px;
+    border: 1px solid #b2b2b2;
+    padding: 0 12px ;
+    background-color: #b2b2b2;
+}
+.btn:hover::after{
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #b2b2b2;
+}
